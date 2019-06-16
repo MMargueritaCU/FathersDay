@@ -1,0 +1,25 @@
+/* =============
+    Variables
+============= */
+
+// Define the breakpoints
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;
+
+// Colors
+$white: #fff;
+$black: #000;
+$darkmagenta: #59006A;
+$lightmagenta: #E86FFF;
+$shadow: #2D0734;
+$green: #96C6AE;
+$darkgreen: #003E1F;

@@ -1,0 +1,39 @@
+/* =============
+    Base
+============= */
+ul{
+  padding: 0;
+  margin: 0;
+
+  li{
+    list-style: none;
+  }
+}
+
+a:link, a:visited{
+  color: $darkgreen;
+}
+
+a:hover, a:active{
+  color: $white;
+}
+
+a{
+  transition: 0.25s;
+  text-decoration: none;
+}
+
+
+.content-grid{
+    display: grid;
+    grid-template-columns: 10px auto 10px;
+    grid-template-areas: ". content .";
+
+    .content-grid-item {
+        grid-area: content;
+    }
+}
+
+.site-section{
+  padding-top: 33px;
+}

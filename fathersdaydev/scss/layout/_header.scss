@@ -1,0 +1,23 @@
+/* =============
+    Header
+============= */
+header {
+  background-image: url("../img/hero/kalinico.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 50px;
+  text-align: center;
+
+  h1 {
+    text-shadow: -4px -4px $shadow;
+  }
+
+  h2 {
+    text-shadow: -10px -5px $shadow;
+  }
+
+  a {
+    background-color: $green;
+    padding: 10px 20px;
+  }
+}

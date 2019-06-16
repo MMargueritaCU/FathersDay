@@ -1,0 +1,49 @@
+/* =============
+    Typography
+============= */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: $lightmagenta;
+  font-family: 'Dancing Script', cursive;
+  font-size: rem-calc(100);
+  line-height: rem-calc(200);
+}
+
+h2 {
+  color: $lightmagenta;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: rem-calc(150);
+}
+
+a {
+  color: $darkgreen;
+  font-family: 'Amatic SC', cursive;
+  font-size: rem-calc(50);
+  font-weight: 700;
+  line-height: rem-calc(200);
+}
+
+p {
+  color: $shadow;
+  font-family: 'Amatic SC', cursive;
+  font-size: rem-calc(40);
+  font-weight: 700;
+}
+
+span {
+  font-family: 'Amatic SC', cursive;
+  font-size: rem-calc(30);
+}
